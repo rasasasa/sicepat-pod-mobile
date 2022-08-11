@@ -1,0 +1,100 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53805
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\user\AppData\Local\Temp\\Katalon\Appium\Temp1659951160533
+[35m[Appium][39m   chromedriverPort: 53806
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 53806
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53805
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\Aplikasi Sicepat\\new\\scan priority\\POD_Staging.V.3.3.0.apk","noReset":true,"deviceName":"Xiaomi Redmi 5A (Android 7.1.2)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.1.2","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"3026d8367d74","systemPort":53811},"capabilities":{"firstMatch":[{"appium:app":"D:\\Aplikasi Sicepat\\new\\scan priority\\POD_Staging.V.3.3.0.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 5A (Android 7.1.2)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.1.2","appium:systemPort":53811,"appium:udid":"3026d8367d74"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: aa62c77f-7a2a-4ee3-acaa-18e8c37de415
+[35m[BaseDriver][39m Using local app 'D:\Aplikasi Sicepat\new\scan priority\POD_Staging.V.3.3.0.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\user\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/user/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 3026d8367d74
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Package name: 'com.sicepat.pod.staging'
+[35m[ADB][39m Main activity name: 'com.sicepat.pod.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\user\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'D:\Aplikasi Sicepat\new\scan priority\POD_Staging.V.3.3.0.apk' is signed with a non-default certificate
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.21.1
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.sicepat.pod.staging/com.sicepat.pod.MainActivity and waiting for 'com.sicepat.pod.staging/com.sicepat.pod.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session aa62c77f-7a2a-4ee3-acaa-18e8c37de415 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16167 ms - 1294[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415 [39m[32m200[39m [90m18 ms - 1248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415 [39m[32m200[39m [90m16 ms - 1248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (aa62c77f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 381b94f6-211e-425e-876b-80ceeeff9070 with aa62c77f-7a2a-4ee3-acaa-18e8c37de415
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/source [39m[32m200[39m [90m137 ms - 602[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/screenshot [39m[32m200[39m [90m468 ms - 76584[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (aa62c77f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 381b94f6-211e-425e-876b-80ceeeff9070 with aa62c77f-7a2a-4ee3-acaa-18e8c37de415
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/source [39m[32m200[39m [90m258 ms - 16993[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/screenshot [39m[32m200[39m [90m745 ms - 234834[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'A' or . = 'A')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415/elements [39m[32m200[39m [90m324 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session aa62c77f-7a2a-4ee3-acaa-18e8c37de415 from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/aa62c77f-7a2a-4ee3-acaa-18e8c37de415 [39m[32m200[39m [90m1622 ms - 14[39m
+[35m[HTTP][39m [90m[39m
