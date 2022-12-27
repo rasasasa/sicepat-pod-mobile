@@ -1,63 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scan masuk_TS</name>
+   <name>Scan ANT_TS</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>2219d3de-e05e-4ce6-9cc8-7b477a31833b</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>85624c45-a193-4720-a3fa-9515ad46cb78</testSuiteGuid>
    <testCaseLink>
-      <guid>2fcc710b-28b6-4bf3-88c4-a3682aa27a9f</guid>
+      <guid>2f7552ee-672a-4233-9ec9-bc9d02f772c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk_Best A1</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/Scan Antar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a28aef47-4123-4506-b045-a87d7143409e</guid>
+      <guid>63353cdb-5a31-4fdd-849b-e3eaf90844c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan Masuk_A1</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/Resi sudah di proses ANT</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf7d3086-032c-4a6d-8bfe-b801cfbfdf05</guid>
+      <guid>c8a31272-adfd-47fb-875a-43aaa53bf0e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk A</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/Validasi ANT belum di manifest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d82c2a2-bdbe-42d6-be3e-922f7830deee</guid>
+      <guid>c3ca1235-f0a0-4aab-9eb0-93b38a414316</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk X1</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/Validasi ANT belum di scan masuk</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c827a064-76f3-4d51-b845-5fd18e28b61f</guid>
+      <guid>dd1dad22-e366-4237-a45e-a49aab6976d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk X</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/Validasi ANT resi status retur</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>29b2e380-98e2-4bc0-ad43-081a46d4aeba</guid>
+      <guid>35930f87-2deb-41d7-88f0-b1f64533713d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Resi tidak ditemukan</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/scan ANT resi retur tapi sudah di cancel retur</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0083f85e-be59-4eee-9569-dcafcf4ab762</guid>
+      <guid>f40c8eb6-fe93-413e-b5ad-f3e1934f8c0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Resi sudah di proses</testCaseId>
+      <testCaseId>Test Cases/Scan_antar/Validasi scan masuk gerai A scan ANT gerai B</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>207b2ff3-ea41-4f51-9485-c36470b4b40d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scan_antar/Validasi resi tidak di temukan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

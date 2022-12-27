@@ -17,37 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Aplikasi Sicepat\\new\\scan priority\\POD Staging 3.3.0.apk', false)
+Mobile.startApplication('D:\\Aplikasi Sicepat\\new\\app-staging-pod-1100.apk', false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Scan masuk/Menu scan masuk'), 0)
+Mobile.tap(findTestObject('Scan Antar/Menu scan antar'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Scan masuk/Kolom Masukkan Nomor Resi'), '100018551113', 0)
+Mobile.setText(findTestObject('Scan Antar/Masukkan Nomor Resi'), '109303245077', 0)
 
-Mobile.tap(findTestObject('Scan masuk/Tombol Submit'), 0)
+Mobile.tap(findTestObject('Scan Antar/Submit'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.checkElement(findTestObject('Scan masuk/Element kode A'), 0)
+Mobile.verifyElementExist(findTestObject('Scan Antar/Resi belum pernah di MANIFESTED'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.checkElement(findTestObject('Scan masuk/Element Kelurahan'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('D:\\SS katalon\\scan masuk A.png', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Scan masuk/Tombol Selanjutnya'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Scan masuk/Tombol SELESAI'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('D:\\SS katalon\\validasi resi belum di manifest.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

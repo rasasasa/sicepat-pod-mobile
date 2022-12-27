@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Aplikasi Sicepat\\new\\app-staging-pod-1100.apk', true)
+Mobile.startApplication('D:\\Aplikasi Sicepat\\new\\app-staging-pod-1100.apk', false)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Object Repository/Username'), '210900251', 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.setText(findTestObject('Login/Password'), 'Sicepat123', 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Login/Button_Login'), 0)
-
-Mobile.verifyElementExist(findTestObject('Login/Pop_up_button _tutup_Login_page'), 0)
-
-Mobile.takeScreenshot("D:\\SS katalon\\invalidUsername.png")
+Mobile.tap(findTestObject('Scan Antar/Menu scan antar'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Scan Antar/Masukkan Nomor Resi'), '109303245076', 0)
+
+Mobile.tap(findTestObject('Scan Antar/Submit'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('Scan Antar/Validasi Resi belum di Scan In'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\SS katalon\\validasi resi belum di scan masuk.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 
