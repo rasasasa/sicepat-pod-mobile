@@ -5,59 +5,45 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>2219d3de-e05e-4ce6-9cc8-7b477a31833b</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>75a75e47-21e2-4381-a446-57fbc29773a3</testSuiteGuid>
    <testCaseLink>
-      <guid>2fcc710b-28b6-4bf3-88c4-a3682aa27a9f</guid>
+      <guid>127ec5a7-3d22-4199-a141-62d8d8ff2b85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk_Best A1</testCaseId>
+      <testCaseId>Test Cases/Scan_masuk/Scan masuk</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a28aef47-4123-4506-b045-a87d7143409e</guid>
+      <guid>645ba95e-8788-4662-895f-d2faf8b58bee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan Masuk_A1</testCaseId>
+      <testCaseId>Test Cases/Scan_masuk/Resi sudah di proses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf7d3086-032c-4a6d-8bfe-b801cfbfdf05</guid>
+      <guid>ff817bda-b75b-42ac-b0bd-6a7ffa536417</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk A</testCaseId>
+      <testCaseId>Test Cases/Scan_masuk/Resi tidak ditemukan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d82c2a2-bdbe-42d6-be3e-922f7830deee</guid>
+      <guid>0c68cef9-01f9-47d4-9bf2-9a9ae2368069</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk X1</testCaseId>
+      <testCaseId>Test Cases/Daftar_barang/Barang_belum_scan_antar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c827a064-76f3-4d51-b845-5fd18e28b61f</guid>
+      <guid>018e4a97-9f02-4612-981e-fcf0c0d5ba35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk X</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>29b2e380-98e2-4bc0-ad43-081a46d4aeba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Resi tidak ditemukan</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0083f85e-be59-4eee-9569-dcafcf4ab762</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scan_Masuk_New/Resi sudah di proses</testCaseId>
+      <testCaseId>Test Cases/Daftar_barang/Daftar_scan_masuk</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

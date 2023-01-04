@@ -21,20 +21,19 @@ Mobile.startApplication('D:\\Aplikasi Sicepat\\new\\app-staging-pod-1100.apk', f
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Object Repository/Username'), '21090025', 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.setText(findTestObject('Login/Password'), 'Sicepat1232', 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Login/Button_Login'), 0)
-
-Mobile.verifyElementExist(findTestObject('Login/Pop_up_button _tutup_Login_page'), 0)
-
-Mobile.takeScreenshot("D:\\SS katalon\\invalidPassword.png")
+Mobile.tap(findTestObject('Daftar Barang/menu daftar barang'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Daftar Barang/Daftar scan masuk'), 0)
+
+Mobile.scrollToText('No. Resi: 109303245119', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Daftar Barang/Fitur copy resi'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\SS katalon\\Daftar Scan masuk.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.closeApplication()
+

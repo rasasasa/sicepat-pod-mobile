@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Scan Antar/Menu scan antar'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Scan Antar/Masukkan Nomor Resi'), '109303245094', 0)
+Mobile.setText(findTestObject('Scan Antar/Masukkan Nomor Resi'), '109303245125', 0)
 
 Mobile.tap(findTestObject('Scan Antar/Submit'), 0)
 

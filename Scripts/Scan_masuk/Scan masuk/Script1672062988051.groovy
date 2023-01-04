@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Scan masuk/Menu scan masuk'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Scan masuk/Kolom Masukkan Nomor Resi'), '109303245083', 0)
+Mobile.setText(findTestObject('Scan masuk/Kolom Masukkan Nomor Resi'), '109303245119', 0)
 
 Mobile.tap(findTestObject('Scan masuk/Tombol Submit'), 0)
 

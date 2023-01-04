@@ -6,7 +6,7 @@
    <elementGuidId>55619bf8-5d71-464a-81b7-b840f67b6be3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -17,19 +17,20 @@
       <name>auth-key</name>
       <type>Main</type>
       <value>5a71a345b4eaa9d23b4d4c745e7785e9</value>
+      <webElementGuid>540bbbec-2ac2-4903-81d0-e754977d9fce</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.1.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://apireportstaging.sicepat.com/patcher/unblock-user/21090025</restUrl>
+   <restUrl>https://apireportstaging.sicepat.com/patcher/unblock-user/21090025</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login_TS</name>
+   <name>Scan masuk new_TS</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,54 +10,54 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>941c071b-e298-45a3-ab1d-8cd0acce0673</testSuiteGuid>
+   <testSuiteGuid>2219d3de-e05e-4ce6-9cc8-7b477a31833b</testSuiteGuid>
    <testCaseLink>
-      <guid>714c4661-27f1-4fb0-9c8a-aed80d8e5fe0</guid>
+      <guid>2fcc710b-28b6-4bf3-88c4-a3682aa27a9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/Login</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk_Best A1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9cb566b-38e3-47b6-b5c1-99303d1e27e9</guid>
+      <guid>a28aef47-4123-4506-b045-a87d7143409e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/username valid password invalid</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Scan Masuk_A1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>48068e13-71aa-4888-bf02-070e2f13a31d</guid>
+      <guid>cf7d3086-032c-4a6d-8bfe-b801cfbfdf05</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/username invalid password valid</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk A</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>60d9d690-ab64-44dc-a401-f2d223385589</guid>
+      <guid>3d82c2a2-bdbe-42d6-be3e-922f7830deee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/username valid password 3 digit</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk X1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb517cea-02ec-47c8-99db-e56cd43b3cdc</guid>
+      <guid>c827a064-76f3-4d51-b845-5fd18e28b61f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/Input Invalid password 3x</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Scan masuk X</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fe4b26d-5bc6-4c82-a1c6-9c568594312c</guid>
+      <guid>29b2e380-98e2-4bc0-ad43-081a46d4aeba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/API_Unlock_salah_password_3x</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Resi tidak ditemukan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5810f5c0-9391-414d-9ac9-54e278e15fce</guid>
+      <guid>0083f85e-be59-4eee-9569-dcafcf4ab762</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_POD/Login false app</testCaseId>
+      <testCaseId>Test Cases/Scan_Masuk_New/Resi sudah di proses</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
